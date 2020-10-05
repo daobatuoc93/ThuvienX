@@ -139,17 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DocGia.cpp" />
+    <ClCompile Include="Reader.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="NguoiLon.cpp" />
-    <ClCompile Include="ThuvienX.cpp" />
-    <ClCompile Include="TreEm.cpp" />
+    <ClCompile Include="Adults.cpp" />
+    <ClCompile Include="LibraryX.cpp" />
+    <ClCompile Include="Children.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DocGia.h" />
-    <ClInclude Include="NguoiLon.h" />
-    <ClInclude Include="ThuvienX.h" />
-    <ClInclude Include="TreEm.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="Adults.h" />
+    <ClInclude Include="LibraryX.h" />
+    <ClInclude Include="Children.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

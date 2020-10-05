@@ -1,13 +1,13 @@
 #pragma once
-#include"DocGia.h"
-class NguoiLon:public DocGia
+#include"Reader.h"
+class Adults:public Reader
 {
 public:
 	void Input();
 	void OutPut();
 	float charge();
-	NguoiLon();
-	~NguoiLon();
+	Adults();
+	~Adults();
 private:
 	string CMND;
 };

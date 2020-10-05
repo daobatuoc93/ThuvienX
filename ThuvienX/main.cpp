@@ -1,6 +1,6 @@
-#include"ThuvienX.h"
+#include"LibraryX.h"
 int main() {
-	ThuvienX* LibObj = new ThuvienX();
+	LibraryX* LibObj = new LibraryX();
 	LibObj->INPUT();
 	float total = LibObj->Total();
 	cout << "\nTotal:" << total << endl;

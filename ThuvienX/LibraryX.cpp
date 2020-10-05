@@ -1,31 +1,39 @@
-#include "ThuvienX.h"
-void ThuvienX::INPUT()
+#include "LibraryX.h"
+void LibraryX::INPUT()
 {
 	int choose;
 	while (true)
 	{
 		system("cls");
-		cout << "\n\n\t\t ============ THU VIEN X ============";
-		cout << "\n\t 1. Doc gia tre em";
-		cout << "\n\t 2. Doc gia nguoi lon";
-		cout << "\n\t 0. Thoat";
+		cout << "\n\n\t\t ============  Library X ============";
+		cout << "\n\t 1. Objects of Children";
+		cout << "\n\t 2. Objects of Adults";
+		cout << "\n\t 3. Show all of information about reader";
+		cout << "\n\t 0. Exit";
 		cout << "\n\n\t\t ============     END    ============";
 
-		cout << "\nNhap lua chon: ";
+		cout << "\nPress a choice: ";
 		cin >> choose;
-		DocGia* x;
+		Reader* x;
 		if (choose == 1) {
-			x = new TreEm;
+			x = new Children;
 			x->Input();
 			x->OutPut();
 			list_DocGia.push_back(x);
 
 		}
 		if (choose == 2) {
-			x = new NguoiLon;
+			x = new Adults;
 			x->Input();
 			x->OutPut();
 			list_DocGia.push_back(x);
+		}
+		if (choose == 3) {
+			for (int i = 0; i < list_DocGia.size(); i++)
+			{
+				list_DocGia[i]->OutPut();
+			}
+			system("pause");
 		}
 		if (choose == 0) {
 			break;
@@ -34,7 +42,7 @@ void ThuvienX::INPUT()
 		
 
 }
-void ThuvienX::Output()
+void LibraryX::Output()
 {
 	for (int i = 0; i < list_DocGia.size(); i++)
 	{
@@ -42,7 +50,7 @@ void ThuvienX::Output()
 		list_DocGia[i]->OutPut();
 	}
 }
-float ThuvienX::Total()
+float LibraryX::Total()
 {
 	float total=0;
 	for (int i = 0; i < list_DocGia.size(); i++)
@@ -51,5 +59,5 @@ float ThuvienX::Total()
 	}
 	return total;
 }
-ThuvienX::ThuvienX(){}
-ThuvienX::~ThuvienX(){}
+LibraryX::LibraryX(){}
+LibraryX::~LibraryX(){}

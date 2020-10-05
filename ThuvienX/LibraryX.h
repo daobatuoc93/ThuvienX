@@ -1,18 +1,18 @@
 #pragma once
 #include<vector>;
 #include<iostream>
-#include"TreEm.h"
-#include"NguoiLon.h"
+#include"Children.h"
+#include"Adults.h"
 using namespace std;
-class ThuvienX
+class LibraryX
 {
 public:
 	void INPUT();
 	void Output();
 	float Total();
-	ThuvienX();
-	~ThuvienX();
+	LibraryX();
+	~LibraryX();
 private:
-	vector<DocGia *> list_DocGia;
+	vector<Reader *> list_DocGia;
 };
 

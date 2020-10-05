@@ -18,30 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TreEm.cpp">
+    <ClCompile Include="Reader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NguoiLon.cpp">
+    <ClCompile Include="Adults.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ThuvienX.cpp">
+    <ClCompile Include="LibraryX.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DocGia.cpp">
+    <ClCompile Include="Children.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TreEm.h">
+    <ClInclude Include="Reader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NguoiLon.h">
+    <ClInclude Include="Adults.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThuvienX.h">
+    <ClInclude Include="LibraryX.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DocGia.h">
+    <ClInclude Include="Children.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,13 +1,13 @@
 #pragma once
-#include"DocGia.h"
-class TreEm:public DocGia
+#include"Reader.h"
+class Children :public Reader
 {
 public:
 	void Input();
 	void OutPut();
 	float charge();
-	TreEm();
-	~TreEm();
+	Children();
+	~Children();
 
 private:
 	string rep_person;

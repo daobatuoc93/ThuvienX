@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class DocGia
+class Reader
 {
 protected:
 	string FullName;
